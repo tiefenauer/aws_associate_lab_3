@@ -36,7 +36,7 @@ public class notesCRUDmapper {
 
         // TODO 1 BEGIN
         // Define a DynamoDB mapper to associate to the instance of NotesItem class
-
+        DynamoDBMapper mapper = new DynamoDBMapper(client);
         // TODO 1 END
 
         testCRUDOperations(mapper);
